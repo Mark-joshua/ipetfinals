@@ -26,7 +26,7 @@
                   echo 'Oops! Something went wrong';
                 }
             }
-            mysqli_stmt_close($statement);
+            //mysqli_stmt_close($statement);
         }
 
         if (empty(trim($_POST['password']))) {
